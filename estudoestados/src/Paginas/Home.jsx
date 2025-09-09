@@ -13,6 +13,10 @@ export default function Home() {
         <ul>
             <li><Link to="/exemplo1">Exemplo 1</Link></li>
             <li><Link to="/exemplo2">Exemplo 2</Link></li>
+            <li><Link to="/exercicio1">Exercicio 1</Link></li>
+            <li><Link to="/Exercicio2">Exercicio 2</Link></li>
+            <li><Link to="/Exercicio3">Exercicio 3</Link></li>
+            <li><Link to="/Exercicio4">Exercicio 4</Link></li>
         </ul>
       </div>
     </div>
