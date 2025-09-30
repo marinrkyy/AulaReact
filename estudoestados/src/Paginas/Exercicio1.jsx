@@ -1,28 +1,42 @@
-export default function Exemplo1() {
-  return (
-    <div>
-      <h1>Exemplo 1</h1>
+import { useState } from "react";
+export default function Exercicio1() {
+  const [numero, setNumero] = useState(10);
+const[resultado , setResultado] = useState();
 
-      <div className="conteudo"> 
-     <h3>Exemplo do useState</h3>
+  function caucular() {
+ let quadrado = Number(numero) * Number(numero);
+let cubo = quadrado * Number(numero);
+ setResultado("o  quadrado é " + quadrado + ", o  cubo é " + cubo);
+  }
 
-     <p>
-      O objetivo aqui será receber dois números, soma-los e exibir o resultado.
-     </p>
-     <form>
-      <p> 
-        Digite o primeiro número <br />
-        <input type="text"/>
-      </p>
-      <p> 
-        Digite o primeiro número <br />
-        <input type="text"/>
-      </p>
-      <p> 
-        <input type="button" value="calcular"/>
-      </p>
-     </form>
-      </div>
-    </div>
-  );
+    return (
+      <div>
+         <h1>Exercicio 1</h1>
+
+<div className="conteudo">
+
+  <form>
+    <p>
+      Digite um número qualuqer :<br/>
+      <input type="text" value={numero}
+      onChange={(e) => setNumero(e.target.value)} />
+      
+    </p>
+   
+    <p>
+      <input type="button" value="Exercicio1"
+      onClick={caucular} />
+
+    </p>
+
+    <p>
+        <b>resultado</b> <br />
+        Resultado: {resultado }
+    </p>
+    <a href="/">Voltar</a>
+  </form>
+</div>
+
+</div>
+);
 }
