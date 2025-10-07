@@ -6,6 +6,12 @@ import Exercicio1 from "./Paginas/Exercicio1";
 import Exercicio2 from "./Paginas/Exercicio2";
 import Exercicio3 from "./Paginas/Exercicio3";
 import Exercicio4 from "./Paginas/Exercicio4";
+import Exercicio5 from "./Paginas/Exercicio5";
+import Exercicio6 from "./Paginas/Exercicio6";
+import Exercicio7 from "./Paginas/Exercicio7";
+import Exercicio8 from "./Paginas/Exercicio8";
+import Exercicio9 from "./Paginas/Exercicio9";
+import Exercicio10 from "./Paginas/Exercicio10";
 import "./App.css"
 
 export default function App() {
