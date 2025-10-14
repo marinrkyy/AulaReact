@@ -12,6 +12,7 @@ import Exercicio7 from "./Paginas/Exercicio7";
 import Exercicio8 from "./Paginas/Exercicio8";
 import Exercicio9 from "./Paginas/Exercicio9";
 import Exercicio10 from "./Paginas/Exercicio10";
+
 import "./App.css"
 
 export default function App() {
